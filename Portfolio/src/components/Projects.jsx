@@ -2,8 +2,8 @@ import Card from "../utils/Card";
 
 export default function Projects() {
   return (
-    <section className="w-full static min-h-full overflow-y-auto overflow-x-hidden bg-[#101922] p-2">
-      <div className="h-1/3 flex flex-col justify-center">
+    <section className="w-full  min-h-full overflow-y-auto overflow-x-hidden bg-[#101922] p-2">
+      <div className=" h-auto flex flex-col justify-center">
         <p className="font-bold my-2">Projects I've Built</p>
         <p className="font-extralight my-2">
           Here are some of the projects I am proud to have worked on.
