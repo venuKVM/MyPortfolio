@@ -44,9 +44,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-auto overflow-hidden mx-auto px-6 pt-2 pb-10 bg-[#101922] dark:bg-[#101922] rounded-lg shadow-md ">
+    <div className="min-h-auto md:overflow-hidden overflow-x-hidden overflow-y-auto mx-auto px-6 pt-2 pb-10 bg-[#101d26] dark:bg-[#101d26] rounded-lg shadow-md ">
       
-      <div className="flex flex-row justify-evenly">
+      <div className="flex md:flex-row flex-col justify-evenly">
         <section className="min-w-1/2 p-12 text-left">
           <h2 className="text-lg font-medium mb-2 text-gray-900 dark:text-gray-100">
             Get in Touch
@@ -80,10 +80,10 @@ export default function Contact() {
         <form
           onSubmit={handleSubmit}
           aria-label="Contact form"
-          className="space-y-3 h-auto rounded-lg w-2/3 m-6 p-6 bg-[#151F2B] flex flex-row flex-wrap gap-2"
+          className="space-y-3 h-auto rounded-lg md:w-2/3 m-6 p-6 bg-[#151F2B] flex flex-row flex-wrap gap-2"
         >
           <h2 className="font-semibold">Send a Message</h2>
-          <div className="w-full flex flex-row justify-between gap-2">
+          <div className="w-full md:flex md:flex-row md:justify-between md:gap-2">
             <div className="fullName">
               <label
                 htmlFor="fullName"
@@ -102,7 +102,7 @@ export default function Contact() {
               />
             </div>
 
-            <div className="email w-1/2">
+            <div className="email md:w-1/2">
               <label
                 htmlFor="email"
                 className="block text-left text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
