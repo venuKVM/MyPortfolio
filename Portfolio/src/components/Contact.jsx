@@ -83,7 +83,7 @@ export default function Contact() {
           className="space-y-3 h-auto rounded-lg md:w-2/3 m-6 p-6 bg-[#151F2B] flex flex-row flex-wrap gap-2"
         >
           <h2 className="font-semibold">Send a Message</h2>
-          <div className="w-full md:flex md:flex-row md:justify-between md:gap-2">
+          <div className="w-full lg:flex lg:flex-row lg:justify-between lg:gap-2">
             <div className="fullName">
               <label
                 htmlFor="fullName"
@@ -102,7 +102,7 @@ export default function Contact() {
               />
             </div>
 
-            <div className="email md:w-1/2">
+            <div className="email lg:w-1/2">
               <label
                 htmlFor="email"
                 className="block text-left text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
